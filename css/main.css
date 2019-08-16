@@ -71,3 +71,13 @@ h1 {
     
     
 }
+
+.about-header {
+    color: rgba(2, 83, 126, 0.9);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.about {
+    margin-left: 15%;
+    margin-right: 15%;
+}
