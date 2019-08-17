@@ -86,7 +86,7 @@ h1 {
 
 .cta {
     background: #00CC00;
-    width: calc(100% - 1em);
+    width: calc(100% - 5em);
     display: block;
     color: white;
     border-radius: 20px;
@@ -104,3 +104,4 @@ h1 {
     color: #fff;
     padding: 3em 0;
 }
+
