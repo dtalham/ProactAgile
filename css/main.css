@@ -18,6 +18,7 @@ ul {
 .container{
     text-align: center;
     padding: .8em 1.2em;
+    width: 100%;
 }
 
 .phone {
@@ -74,10 +75,32 @@ h1 {
 
 .about-header {
     color: rgba(2, 83, 126, 0.9);
+    position: relative;
     font-size: 1.2em;
     font-weight: bold;
 }
 .about {
     margin-left: 15%;
     margin-right: 15%;
+}
+
+.cta {
+    background: #00CC00;
+    width: calc(100% - 1em);
+    display: block;
+    color: white;
+    border-radius: 20px;
+    padding: .5em;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 3% auto 7%;
+    position: relative;
+
+}
+
+.footer-container{
+    width: 100%;
+    background: #3D444A;
+    color: #fff;
+    padding: 3em 0;
 }
