@@ -98,14 +98,14 @@ h2 {
 
 .cta {
     background: #00CC00;
-    width: calc(100% - 5em);
+    width: calc(100% - 6em);
     display: block;
     color: white;
     font-weight: bold;
     border-radius: 20px;
     padding: .5em;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin: 3% auto 7%;
     position: relative;
 
@@ -115,12 +115,14 @@ h2 {
     width: 100%;
     background: #3D444A;
     color: #fff;
-    padding: 3em 0;
-    font-size: .5em;
+    padding: 3em 0 .5em 0;
+    font-size: .6em;
+   
 }
 
 .copyright {
     text-align: left;
+
 }
 
 
