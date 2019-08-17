@@ -101,6 +101,7 @@ h2 {
     width: calc(100% - 5em);
     display: block;
     color: white;
+    font-weight: bold;
     border-radius: 20px;
     padding: .5em;
     text-decoration: none;
@@ -115,5 +116,11 @@ h2 {
     background: #3D444A;
     color: #fff;
     padding: 3em 0;
+    font-size: .5em;
 }
+
+.copyright {
+    text-align: left;
+}
+
 
