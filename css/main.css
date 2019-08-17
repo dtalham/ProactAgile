@@ -21,7 +21,10 @@ nav {
 .container{
     text-align: center;
     padding: .8em 1.2em;
-    width: 100%;
+ 
+    width: auto;
+    margin-left: 0px;
+   margin-right: 0px;
     
 }
 
