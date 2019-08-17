@@ -15,10 +15,14 @@ ul {
     padding: 0;
 }
 
+nav {
+    display: flex;
+}
 .container{
     text-align: center;
     padding: .8em 1.2em;
     width: 100%;
+    
 }
 
 .phone {
@@ -52,6 +56,11 @@ header {
 
 h1 {
     color: white;
+    font-size: calc(1em + 1vw);
+}
+
+h2 {
+    margin: 0;
 }
 
 .subhead {
@@ -69,7 +78,7 @@ h1 {
     padding: 1.2em;
     margin: auto;
     text-align: center;
-    
+
     
 }
 
