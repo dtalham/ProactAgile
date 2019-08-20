@@ -17,7 +17,49 @@ ul {
 
 nav {
     display: flex;
+
 }
+
+nav ul {
+    position: fixed;
+    width: 60%;
+    top: 0;
+    left: 0;
+    text-align: left;
+    background: rgb(36,41,44);
+    height: auto;
+    z-index: 7;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: auto;
+    padding: 1em 2em;
+    background-color: rgb(49,55,59);
+    
+}
+
+nav ul li a:hover {
+    background-color: rgb(149, 167, 179);
+}
+
+.navclosebutton{
+    width: 35px;
+    padding-left: .5em;
+    padding-bottom: 1em;
+    cursor: pointer;
+    
+}
+.exit-btn {
+    display: flex;
+    
+}
+
 .container{
     text-align: center;
     padding: .8em 1.2em;
@@ -98,7 +140,6 @@ h2 {
 
 .cta {
     background: #00CC00;
-    width: calc(100% - 6em);
     display: block;
     color: white;
     font-weight: bold;
@@ -108,6 +149,9 @@ h2 {
     font-size: 1.2em;
     margin: 3% auto 7%;
     position: relative;
+    width: fit-content;
+    padding-left: 2em;
+    padding-right: 2em;
 
 }
 
@@ -121,8 +165,40 @@ h2 {
 }
 
 .copyright {
-    text-align: left;
+    text-align: center;
 
+}
+
+@media only screen and (min-width: 650px){
+
+    .callout {
+        width: 40%;
+    }
+
+    .subhead {
+    font-size: 1.4em
+    }
+
+
+    .about-container ul {
+        display: flex;
+        margin: 5%;
+         
+    }
+
+    .about {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .footer-container {
+        font-size: .8em;
+    }
+
+    .copyright {
+        text-align: left;
+    
+    }
 }
 
 
