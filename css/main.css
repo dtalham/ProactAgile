@@ -179,6 +179,9 @@ h2 {
     font-size: 1.4em
     }
 
+    .banner {
+        padding: 2.3em;
+    }
 
     .about-container ul {
         display: flex;
@@ -226,6 +229,7 @@ h2 {
         height: auto;
         display: flex;
         padding-top: 0;
+        padding-bottom: 0;
        
     }
 
