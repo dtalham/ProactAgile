@@ -204,8 +204,8 @@ h2 {
     }
 
     .container {
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 7%;
+        margin-right: 7%;
     }
 
     nav ul {
@@ -244,6 +244,10 @@ h2 {
 
     nav ul li a:hover {
         background-color: lightgrey;
+    }
+
+    a[href*="tel:"] {
+        pointer-events: none;
     }
 }
 
