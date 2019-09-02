@@ -21,10 +21,10 @@ steps:
     destinationFolder: '$(Build.ArtifactStagingDirectory)'
     cleanDestinationFolder: true
 
-    - task: AzureFileCopy@3
-      inputs:
-        SourcePath: '$(Build.ArtifactStagingDirectory)'
-        azureSubscription: 'Pay-As-You-Go (742ae000-a369-4be5-a69f-83f13ae7a925)'
-        Destination: 'AzureBlob'
-        storage: 'proactagileweb'
-        ContainerName: '$web'
+- task: AzureFileCopy@3
+  inputs:
+    SourcePath: '$(Build.ArtifactStagingDirectory)'
+    azureSubscription: 'Pay-As-You-Go (742ae000-a369-4be5-a69f-83f13ae7a925)'
+    Destination: 'AzureBlob'
+    storage: 'proactagileweb'
+    ContainerName: '$web'
